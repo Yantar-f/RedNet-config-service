@@ -1,0 +1,10 @@
+server:
+    port: 8888
+spring:
+    application:
+        name: CONFIG_SERVICE
+    cloud:
+        config:
+            server:
+                git:
+                    uri: git@github.com:Yantar-f/RedNet-app-config.git
